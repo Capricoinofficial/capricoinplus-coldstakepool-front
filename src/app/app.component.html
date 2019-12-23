@@ -2,15 +2,15 @@
 <section class="intro">
     <div class="container">
         <div class="logo">
-            <a href="http://particl.io">
-                <img src="assets/img/particl-logotype.svg" alt="Particl.io" target="_blank">
+            <a href="https://www.capricoin.org/">
+                <img src="assets/img/capricoinplus-logotype.svg" alt="capricoin.org" target="_blank">
             </a>
         </div>
         <div class="section text-center">
             <img src="assets/img/cold-staking-logo.png" class="cold-staking-logo" alt="Cold Staking Logo">
             <div class="item pool-address">
                 <p class="text-lead">
-                    <span class="blue">PARTICL</span> COLD STAKING POOL
+                    <span class="blue">Capricoin+</span> Cold Staking Pool
                 </p>
                 <div class="address-string">
                     <ngx-qrcode 
@@ -30,14 +30,14 @@
                     <div class="item">
                         <h3 class="title">Total Pooled Coins</h3>
                         <div class="amount ">{{ api.watchonlytotalbalance.toFixed(3) | number }}
-                            <small class="hide-for-s">PART</small>
+                            <small class="hide-for-s">CPS</small>
                         </div>
                         <p class="desc ">Total combined user coins</p>
                     </div>
                     <div class="item">
                         <h3 class="title">Currently Staking</h3>
                         <div class="amount ">{{ api.stakeweight / 100000000 | number }}
-                            <small class="hide-for-s">PART</small>
+                            <small class="hide-for-s">CPS</small>
                         </div>
                         <p class="desc ">Stakeweight</p>
                     </div>
@@ -61,7 +61,7 @@
 <!-- chart -->
 <section class="chart">
     <div class="container">
-        <canvas #chartElem id="chart-particl" width="400" height="100">{{chart}}</canvas>
+        <canvas #chartElem id="chart-capricoinplus" width="400" height="100">{{chart}}</canvas>
     </div>
 </section>
 <!-- chart end -->
@@ -151,7 +151,7 @@
                                 <b>Payout Treshhold</b>
                             </td>
                             <td>
-                                <span class="text-meta">{{config.parameters[0].payoutthreshold}} PART</span>
+                                <span class="text-meta">{{config.parameters[0].payoutthreshold}} CPS</span>
                             </td>
                         </tr>
                         <tr>
@@ -173,7 +173,7 @@
                                 <b>Minimum output value</b>
                             </td>
                             <td>
-                                <span class="text-meta">{{config.parameters[0].minoutputvalue}} PART</span>
+                                <span class="text-meta">{{config.parameters[0].minoutputvalue}} CPS</span>
                             </td>
                         </tr>
                         <tr>
@@ -344,15 +344,15 @@
                 <div class="small-block-grid-1 medium-block-grid-1 large-block-grid-1">
                     <div class="item">
                         <!-- please do not remove - thank you! -->
-                        <p> © 2019
-                            <a href="https://particl.io" target="_blank">Particl</a> - Privacy-focused Decentralized Applications
+                        <p> © 2020
+                            <a href="https://capricoin.org/" target="_blank">Capricoin+</a> - Privacy-focused Decentralized Applications
                         </p>
                         <p>
-                            <a href="https://github.com/particl/coldstakepool" target="_blank">
-                                <img src="assets/icons/github.svg" class="icon-github icon-blue" alt=""> Particl Cold-Staking Pool
+                            <a href="https://github.com/Capricoinofficial/coldstakepool" target="_blank">
+                                <img src="assets/icons/github.svg" class="icon-github icon-blue" alt=""> Capricoin+ Cold-Staking Pool
                             </a>
-                            <a href="https://github.com/gerlofvanek/particl-coldstakepool-front" target="_blank">
-                                <img src="assets/icons/github.svg" class="icon-margin-10 icon-github icon-blue" alt=""> Particl Cold-Staking Pool GUI v1.0
+                            <a href="https://github.com/Capricoinofficial/capricoinplus-coldstakepool-front" target="_blank">
+                                <img src="assets/icons/github.svg" class="icon-margin-10 icon-github icon-blue" alt=""> Capricoin+ Cold-Staking Pool GUI v1.0
                             </a>
                         </p>
                     </div>

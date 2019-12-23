@@ -114,7 +114,7 @@ export class AppComponent implements OnInit {
         labels: [],
         datasets: [{
           label: 'Total pooled coins',
-          borderColor: 'rgb(3, 232, 176,2)',
+          borderColor: '#FFB900',
           borderWidth: 3,
           pointBorderWidth: 4,
           pointBackgroundColor: 'rgb(34, 41, 41,2)',
@@ -213,10 +213,10 @@ export class AppComponent implements OnInit {
 
 
   getBlockExplorerUrlForBlock(block: string) {
-    return `https://explorer${ environment.testnet ?  '-testnet' : ''}.particl.io/block/${block}`;
+    return `https://${ environment.testnet ?  'testnet-' : ''}explorer.capricoin.org/block/${block}`;
   }
 
   getBlockExplorerUrlForTx(tx: string) {
-    return `https://explorer${ environment.testnet ?  '-testnet' : ''}.particl.io/tx/${tx}`;
+    return `https://${ environment.testnet ?  'testnet-' : ''}explorer.capricoin.org/tx/${tx}`;
   }
 }
