@@ -814,7 +814,7 @@
  	box-sizing: border-box;
  }
  html {
- 	font-family: 'Inter UI', 'Particl', sans-serif;
+ 	font-family: 'Inter UI', 'Capricoin+', sans-serif;
  	font-weight: normal;
  	line-height: 1.5;
  	-webkit-text-size-adjust: 100%;
@@ -822,11 +822,11 @@
  }
  @supports (font-variation-settings: normal) {
  	html {
- 	font-family: 'Inter UI', 'Particl', sans-serif;
+ 	font-family: 'Inter UI', 'Capricoin+', sans-serif;
  	}
  }
  body {
-	font-family: 'Inter UI', 'Particl', sans-serif;
+	font-family: 'Inter UI', 'Capricoin+', sans-serif;
  	background: #0E0E0E;
  	color: #fff;
  	font-size: 13px;
@@ -1001,11 +1001,11 @@
  	margin: 0;
  }
  a {
- 	color: #04E8B0;
+ 	color: #FFB900;
  }
  a:focus,
  a:hover {
- 	color: #15fbc2;
+ 	color: #fdd871;
  }
  .amount {
  	font-size: 1.35rem;
@@ -1064,7 +1064,7 @@
  }
  a {
  	text-decoration: none;
- 	color: #04E8B0;
+ 	color: #FFB900;
  }
  .blue {
  	color: #12AFFF;
@@ -1092,7 +1092,7 @@
     Icons
    ========================================================================== */
  .icon {
- 	color: #03E8B0;
+ 	color: #FFB900;
 	font-weight: normal;
 	font-style: normal;
  }
@@ -1111,8 +1111,8 @@
 }
 
 @font-face {
- 	font-family: 'Particl';
- 	src: url('assets/fonts/Particl.eot') format('embedded-opentype'), url('assets/fonts/Particl.woff2') format('woff2'), url('assets/fonts/Particl.woff') format('woff'), url('assets/fonts/Particl.ttf') format('truetype'), url('assets/fonts/Particl.svg') format('svg');
+ 	font-family: 'Capricoin+';
+ 	src: url('assets/fonts/Capricoin+.eot') format('embedded-opentype'), url('assets/fonts/Capricoin+.woff2') format('woff2'), url('assets/fonts/Capricoin+.woff') format('woff'), url('assets/fonts/Capricoin+.ttf') format('truetype'), url('assets/fonts/Capricoin+.svg') format('svg');
  	font-weight: normal;
  	font-style: normal;
 }
@@ -1121,7 +1121,7 @@
   -------------------------*/
  .icon {
  	display: inline-block;
- 	font: normal normal normal 1em/1 'Particl';
+ 	font: normal normal normal 1em/1 'Capricoin+';
  	speak: none;
  	text-transform: none;
  	/* Better Font Rendering */
@@ -1185,7 +1185,7 @@
  label:before {
  	font-weight: normal;
  	margin-right: 10px;
- 	font-family: 'Particl';
+ 	font-family: 'Capricoin+';
  }
  label:hover {
  	color: #fff;
