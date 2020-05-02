@@ -14,14 +14,14 @@ export class RpcService {
   }
   // Uses http.get() to load data from a single API endpoint
   getConfig() {
-    return this.http.get(`${this.url}/config`);
+    return this.http.get(`${this.url}/api/config`);
   }
 
   getJson() {
-    return this.http.get(`${this.url}/json`);
+    return this.http.get(`${this.url}/api/json`);
   }
 
   getMetrics() {
-    return this.http.get(`${this.url}/json/metrics`);
+    return this.http.get(`${this.url}/api/json/metrics`);
   }
 }
